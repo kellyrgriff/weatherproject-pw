@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <title>Weather App</title>
+    
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  </head>
+  <div class="container">
+    <body>
+      <div class="bigweather">
+        <h1 id="city">New York</h1>
+        <h2>87℉</h2>
+        <p>
+          ↑78°/↓74°
+          <br />
+          <li id="date"></li>
+          Sunday 5:30PM, Clear
+          <br />
+          Humidity: <span id="humidity"></span>%, Wind: <span id="wind"></span>
+        </p>
+             </div>
+</body>
+<form class=cityFind id="cityFind">
+ 
+    <label for="city-input" class="form-label">Enter City 🗺 
+      <button >Search</button></label>
+    <input type="search" placeholder="New York" class="form-control" autocomplete="off" autofocus="on"
+    id="city-input" >
+    <div id="cityHelp" class="form-text"> </div>
+  
+</div>
+</form> 
+<button class="btn btn-success w-100"id="current-location-button">
+Current
+</button>
+
+  <ul>
+      <li>Monday</li>
+      <br />
+      <li>Tuesday</li>
+      <br />
+      <li>Wednesday</li>
+      <br />
+      <li>Thursday</li>
+      <br />
+      <li>Friday</li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+    
+  </div>
+ 
+    <script src="src/index.js"></script>
+  </script>
+  </body>
+</html>

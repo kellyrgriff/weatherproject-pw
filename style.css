@@ -1,0 +1,62 @@
+.container {
+  border: solid thin;
+  border-color: black;
+  margin: 20px auto;
+  max-width: auto;
+  padding: 15px;
+
+  border-radius: 40px;
+  height: 480px;
+}
+
+li {
+  list-style: none;
+}
+
+.bigweather {
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px 20px 50px 10px;
+  border: solid thin;
+  border-color: black;
+  color: purple;
+  margin-top: 50px;
+}
+
+.cityfind {
+  width: 400px;
+  border: solid thin;
+  border-color: black;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px 20px 10px 10px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 400px;
+  padding: 20px 20px 50px 20px;
+  width: 135px;
+  float: right;
+  display: block;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  height: 310px;
+  border-radius: 20px;
+
+  border: solid thin;
+  border-color: black;
+  color: purple;
+  margin-top: 50px;
+}
+
+button {
+  color: blueviolet;
+  position: relative;
+  left: 200px;
+}
+
+body {
+  max-width: 650px;
+}
